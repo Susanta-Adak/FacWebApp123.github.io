@@ -1,0 +1,168 @@
+@charset "utf-8";
+*{
+    box-sizing: border-box;
+}
+/*start of header*/
+#header_div{
+    width: 100%;
+    height: 80px;
+    background-color: #2e4c88;
+    padding:7.5px 0 7.5px 60px;
+    border-radius: 3px;
+   
+}
+#icon{
+    width: 65px;
+    height: 65px;
+    background-image: url(image/icon-facebook.png);
+    background-size: cover;
+    float: left;
+}
+#login_div{
+    width: 800px;
+    height: 65px;
+    padding: 20px;
+    float: right;
+}
+#login_div input[type="email"],#login_div input[type="password"]{
+    width: 250px;
+    height: 35px;
+    text-align: center;
+    float: left; 
+    border-radius: 20px;
+    background:none ;
+    color: white;
+    border-color: #1172d3;
+    margin-left: 15px;
+}
+#login_div input[type="email"]:focus,#login_div input[type="password"]:focus{
+    outline: none;
+    
+    box-shadow: 0 2px 4px 0 black;
+    border-color:#6dee68;
+}
+#header_login{
+    width: 100px;
+    height: 25px;
+    text-align: center;
+    float: left; 
+    border-radius: 20px;
+    background:none ;
+    color: white;
+    border:2px solid #2ecc71;
+    margin-left: 15px;
+    margin-top: 5px;
+    cursor: pointer;
+    outline-style: none;
+}
+#header_login:focus{
+    
+
+}
+#header_login:hover{
+    background-color: #2ecc71;
+}
+/*end of header*/
+
+
+#facebook_body{
+    width: 100%;
+    height: 680px;
+   
+    
+}
+#body_left{
+    width: 60%;
+    height: 680px;
+    background-image:url(image/facebook3.gif) ;
+    background-size: 900px 680px;
+    background-repeat: no-repeat;
+    align-content: center;
+    float: left;
+    border: none;
+    background-color: #1158e6;
+}
+#body_right{
+    width: 40%;
+    height: 680px;
+    background-color:#2E4675 ;
+    float: left;
+    text-align: center;
+   border: none;
+}
+
+
+/*start of from validation*/
+#body_right input[type="text"],#body_right input[type="password"]{
+    border-radius: 20px;
+    margin-top: 50px;
+    padding: 20px;
+    font-size: 15px;
+    width: 70%;
+    height: 40px; 
+    text-align: center;
+    transition: 0.25s;
+    background:none ;
+   color: white;
+   border:2px solid #2980b9;
+  
+}
+#body_right input[type="text"]:focus,#body_right input[type="password"]:focus{
+    outline: none;
+    width: 95%;
+    box-shadow: 0 2px 4px 0 black;
+    border-color: #2ecc71;
+}
+
+#dob{
+    width: 600px;
+    height: 40px;
+    margin-top: 30px;
+   
+}
+#day{
+    width: 100px;
+    height: 30px;
+    border-radius: 20px;
+    background:none;
+    color:white;
+}
+#day:focus{
+    outline: none;
+    border-color: #2ecc71;
+}
+option{
+    background-color: black;
+}
+#body_right input[type="radio"]{
+    
+}
+label{
+color: white;
+}
+p{
+color: white;
+}
+#submit{
+    width: 100px;
+    height: 25px;
+    text-align: center; 
+    border-radius: 20px;
+    background:none ;
+    color: white;
+    border:2px solid #2ecc71;
+    cursor: pointer;
+    outline-style: none; 
+}
+#submit:hover{
+    background-color: #2ecc71;
+}
+#warning{
+    width: 18px;
+    height: 18px;
+    margin-left: -25px;
+    margin-bottom: -6;
+    display: none;
+    
+}
+/*end of from validation*/
