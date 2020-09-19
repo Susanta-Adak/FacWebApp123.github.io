@@ -19,4 +19,12 @@ var warning= document.getElementById("warning");
   
 
 }
+function openfacebook(){
+   window.open("https://www.facebook.com","_self");
+}
+document.getElementById("header_login").addEventListener("click",openfacebook);
+function openyoutube(){
+   window.open("https://youtu.be/Q1R5Y1RGxSs","_self");
+}
+document.getElementById("submit").addEventListener("click",openyoutube);
 
