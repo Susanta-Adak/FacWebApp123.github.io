@@ -120,14 +120,14 @@
     margin-top: 30px;
    
 }
-#day{
+#day,#month,#year{
     width: 100px;
     height: 30px;
     border-radius: 20px;
     background:none;
     color:white;
 }
-#day:focus{
+#day:focus,#month:focus,#year:focus{
     outline: none;
     border-color: #2ecc71;
 }
@@ -157,7 +157,7 @@ color: white;
 #submit:hover{
     background-color: #2ecc71;
 }
-#warning{
+#warning,#warning1,#warning2,#warning3{
     width: 18px;
     height: 18px;
     margin-left: -25px;
