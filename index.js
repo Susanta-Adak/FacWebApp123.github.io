@@ -94,6 +94,4 @@ function formvalidation(){
       year.style. border="1px solid white";
       
     }
-
-    if(male.style.ch)
 }
